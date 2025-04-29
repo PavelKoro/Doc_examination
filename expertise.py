@@ -2,8 +2,6 @@ import aiohttp
 import asyncio
 import openai
 
-SEMAPHORE_LIMIT = 10
-
 openai.api_key = "TOKEN_API"
 
 async def get_gpt_response(stroka: str, semaphore: asyncio.Semaphore):
