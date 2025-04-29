@@ -1,0 +1,6 @@
+ipykernel
+docling
+openai
+aiohttp
+json-repair
+psycopg2-binary

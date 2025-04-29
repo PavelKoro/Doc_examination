@@ -1,0 +1,6 @@
+conda create --name Doc_examination python=3.11 -y
+conda activate Doc_examination
+conda deactivate
+pip install -r requirements.txt
+conda env list
+conda remove --name Doc_examination --all -y
